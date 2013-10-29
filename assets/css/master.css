@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/*-------------------------------------------------------
+
+  CSS Framework
+  
+---------------------------------------------------------*/
+
+@import "library/reset.css";
+@import "custom/global_preset.css";
+
+/*---This is where your css goes---*/
+@import "custom/generic.css";

@@ -1,0 +1,22 @@
+label{font-size:11px!important; color:#821517; font-weight:bold; width:100px; text-align:right; display:block; float:left; margin-right:5px; padding-top:4px;}
+input{margin-bottom:7px;}
+
+#login_form {
+    width:30%; 
+    border: 1px solid #ddd; 
+    margin:20px 0 20px 0; 
+    background: url(../../images/css-gradient.gif) 0% 0% repeat-x; 
+    margin:auto; 
+    margin-top:300px;
+}
+
+#inner_forms {
+    padding:20px;
+}
+
+#forms {
+    width:100%; 
+    border: 1px solid #ddd; 
+    margin:20px 0 20px 0; 
+    background: url(../../images/css-gradient.gif) 0% 0% repeat-x;
+}

@@ -1,0 +1,173 @@
+@import "navigation.css";
+@import "forms.css";
+
+body { 
+	margin: 0; 
+	padding: 0; 
+	font-family: Arial, Lucida Grande, Verdana, Geneva, Sans-serif; 
+	font-size: 10px; 
+	color: #333; 
+	background-color: #fff; 
+}
+#content { 
+	left: 0px; 
+	right: 10px; 
+	margin: 0 15px 30px 15px; 
+	padding: 14px 13px 0 13px; 
+	width: auto; 
+	background-color: transparent; 
+}
+
+#header {
+    width:%; 
+    background-color:#1d2f43;
+    height:33px; 
+    text-align:right; 
+    color:#657587; 
+    font-size:12px; 
+    padding:9px;
+}
+
+#bottom_header {
+    height:20px; 
+    background-color:#657587; 
+    border-bottom:1px solid black; 
+    border-top:1px solid #8b96a0    
+}
+
+
+
+
+/*----------------general styles----------------*/
+.logo{float:left; margin-left:20px;}
+/*----------------general styles----------------*/
+
+
+
+
+/*----------------table styles------------------*/
+.border { 
+	border: 1px solid #B1B6D2; 
+	margin-top: 1px; 
+}
+.tablePad { 
+	padding: 1px 1px 1px 1px; 
+	background-color: #fff; 
+}
+.tableBorder { 
+	border-left: 1px solid #B1B6D2; 
+	border-right: 1px solid #B1B6D2; 
+	margin: 0 0 3px 0; 
+	padding: 0; 
+}
+.tableBorderNoTop { 
+	border-bottom: 1px solid #B1B6D2; 
+	border-right: 1px solid #B1B6D2; 
+	border-left: 1px solid #B1B6D2; 
+}
+.tableBorderNoBot { 
+	border-top: 1px solid #B1B6D2; 
+	border-right: 1px solid #B1B6D2; 
+	border-left: 1px solid #B1B6D2; 
+}
+.tableBorderSides { 
+	border-right: 1px solid #B1B6D2; 
+	border-left: 1px solid #B1B6D2; 
+}
+.tableHeading { 
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #fff; 
+	padding: 7px 6px 7px 6px; 
+	background: #768E9D url(../../images/bg_table_heading.gif) repeat-x left bottom;
+}
+.tableHeadingAlt { 
+	font-size: 11px; 
+	font-weight: bold; 
+	white-space: nowrap; 
+	color: #0C1216; 
+	padding: 5px 6px 5px 6px; 
+	background: #B8C6CE url(../../images/bg_table_heading_alt.gif) repeat-x left bottom;
+}
+.default .tableHeadingAlt { 
+	font-size: 11px; 
+	font-weight: bold; 
+	white-space: nowrap; 
+	color: #0C1216; 
+	padding: 5px 6px 5px 6px; 
+	background-color: #B8C6CE;
+	background-image:none;
+}
+.tableHeadingAlt a:link { 
+	color: #424665; 
+	text-decoration: none; 
+}
+.tableHeadingAlt a:visited { 
+	color: #424665; 
+	text-decoration: none; 
+}
+.tableHeadingAlt a:hover { 
+	color: #787FA4; 
+	text-decoration: none; 
+}
+.tableHeadingAltHover { 
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #000; 
+	padding: 5px 6px 5px 6px; 
+	background-color: #A1B1BB;
+
+	cursor: pointer; 
+}
+.tableHeadingAltHover a { 
+	color: #696F92; 
+	text-decoration: none; 
+}
+.tableHeadingSmall { 
+	font-size: 11px; 
+	font-weight: bold; 
+	white-space: nowrap; 
+	color: #0C1216; 
+	padding: 5px 6px 5px 6px; 
+	background: #B8C6CE url(../../images/bg_table_heading_alt.gif) repeat-x left bottom;
+}
+.tableCellOne, .tableCellOneBold { 
+	color: #333; 
+	padding: 6px 10px 6px 6px; 
+	border-bottom: 1px solid #CAD0D5; 
+	background-color: #EEF4F9; 
+}
+.tableCellOne a:link, .tableCellOne a:visited, .tableCellTwo a:link ,.tableCellTwo a:visited{
+font-size:11px;
+color: #1D7FC6; 
+}
+.tableCellOne div, .tableCellTwo div {
+font-size:11px;
+
+}
+.tableCellTwo, .tableCellTwoBold { 
+	color: #333; 
+	padding: 6px 10px 6px 6px; 
+	border-bottom: 1px solid #CAD0D5; 
+	background: #fff; 
+}
+.tableCellPlain { 
+	color: #333; 
+	padding: 5px 10px 8px 7px; 
+	border-bottom: 1px solid #B1B6D2; 
+	background: #fff; 
+}
+.tableCellOneBold { 
+	font-weight: bold; 
+}
+.tableCellTwoBold { 
+	font-weight: bold; 
+}
+.tableCellOneHover, .tableCellTwoHover { 
+	background-color: #E1FAD8; 
+	font-size: 11px; 
+	color: #333; 
+	padding: 6px 10px 6px 6px; 
+	border-bottom: 1px solid #fff; 
+}
+/*----------------end table styles------------------*/

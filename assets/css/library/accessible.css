@@ -1,0 +1,75 @@
+/*Cascade developed by Michelle Britton & Chris Cook*/
+/*accessible.css*/
+/*This stylesheet is intended to provide a basic accessibility stylesheet
+if you think it is missing something vital, please let us know.*/
+
+/*page settings*/
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, iframe, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin: 5px;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+}
+
+html, body{font-family: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif; font-size:large;}
+/*change the colour here by uncommenting the appropriate styles*/
+html, body{background-color:#FFFFFF; color:black;}
+/*html, body{background-color:#000000; color:yellow;}*/
+
+
+/*headings*/
+h1 {font-size:2.125em; margin-bottom:12px; font-weight:bold;}
+h2 {font-size:1.625em; margin-bottom:10px; }
+h3 {font-size:1.125em; margin-bottom:8px; }
+h4 {font-size:1em; margin-bottom:5px; font-weight:bold; }
+h5, h6 {font-size:0.875em; margin-bottom:5px; font-weight:bold; }
+h6 {font-weight:normal; }
+
+/*tables*/
+table{border-collapse:separate; border:1px solid gray;}
+td{text-align:left; border:1px solid gray;}
+th{border:1px solid gray; font-weight:bold}
+
+/*often inaccessible elements*/
+object{display:none}
+code, pre{font-family: "Courier New", Courier, Monaco, monospace;}
+caption{font-size:1em;}
+
+acronym, abbr {
+	cursor:help;
+	border-bottom:1px dotted red;
+}
+
+hr{color:gray;}
+
+/*links*/
+a{color:blue; text-decoration:underline;}
+a:active{color:red}
+a:visited{color:purple}
+
+/*images*/
+img{display:none}
+a img{content:attr(alt); width:auto!important; height:auto!important; border:2px solid blue; display:block;}
+
+/*forms*/
+form, fieldset, legend{font-size:1em;}
+input{font-size:1em;}
+input:focus{background:#FFFF80; color:black;}
+form{width:auto;}
+fieldset{width:auto; margin:auto; border:1px solid gray;}
+label{display:block; float:left; width:200px; padding:0; margin:5px 0 0; text-align:right} /*if we don't set a width, we sacrifice some usability*/
+form br{clear:left}
+input, textarea, select{float:left; width:auto; margin:5px 0 0 10px;}
+/*-----*/
+
+/*lists*/
+ul {list-style-type:square;}
+ol {list-style-type:decimal;}

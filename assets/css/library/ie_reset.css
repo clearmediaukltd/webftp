@@ -1,0 +1,13 @@
+
+html{overflow:auto;} /*removes scrollbar from IE7 until needed*/
+
+/*removes scrollbar from IE6 until needed*/
+* html{overflow:hidden;} 
+* html body{height:100%; overflow:auto!important;} 
+/*---------------------------------------*/
+
+/** html ul a{_height: 1em!important;} fixes IE <li><a href=""></a></li> double height bug*/ /*May have to remove!!!*/
+
+input {
+	margin:-2px 0 0 0; /*removes a bug in IE where input elements have extra margin applied by the browser*/
+}

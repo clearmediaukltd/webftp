@@ -1,0 +1,7 @@
+h1{margin-left:10px; margin-top:-40px;font-size:18px}
+h2{font-size:16px}
+#form_controls{float:left; margin:15px; width:750px; overflow:visible;}
+fieldset{width:auto;}
+input[type="file"]{width:250px;}
+#data{float:left; margin:15px; background:#f8f8f8; display:block; border:1px solid #bebebe; padding:10px; width:auto; }
+#logout{position:relative; z-index:1;}

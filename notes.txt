@@ -1,0 +1,13 @@
+How to get PHP to upload large files...
+
+PHP won't accept you setting any of the filesize params in php.ini over 2048 MB, it's basically broken
+
+set in PHP.ini:
+
+max_execution_time = 600     ; Maximum execution time of each script, in seconds
+max_input_time = 600	; Maximum amount of time each script may spend parsing request data
+memory_limit = 500M      ; Maximum amount of memory a script may consume (16MB)
+upload_max_filesize = 1024M
+post_max_size = 1024M
+
+Because PHP uses 32-bit signed integers it can only store a max value of 2147483647 which if converted to GB = around 1.9 GB.

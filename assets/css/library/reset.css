@@ -1,0 +1,40 @@
+/*Cascade developed by Michelle Britton & Chris Cook*/
+/*reset.css*/
+/*Mass Reset*/
+/*Thanks to Eric for this reset http://meyerweb.com/eric/thoughts/2007/04/14/reworked-reset/ */
+
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, iframe, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, input, legend, table, caption, tbody, tfoot, thead, tr, th, td, p, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+}
+
+body, ul, ol, dl, td, th, caption, pre, p, blockquote, input, textarea {
+	font-size:62.5% /* 16px × 62.5% = 10px */; /*Sets ems so they can be used approximately as pixels*/
+	line-height:normal;	
+}
+
+pre, input, fieldset, label {
+    font-size:14px!important;
+}
+
+input {
+	border: 1px solid #7F9DB9; /*standardise the border colour of input elements*/
+	font-size:1.2em!important;
+	vertical-align:top; /*removes a bug in FF where input elements have extra margin applied by the browser*/
+}
+
+table {border-collapse: collapse; border-spacing: 0;}
+q:before, q:after, blockquote:before, blockquote:after {content: "";}
+
+ul {list-style-type:disc; list-style-position:outside;}
+ol {list-style-type:decimal; list-style-position:outside;}
+

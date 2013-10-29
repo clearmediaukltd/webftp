@@ -1,0 +1,19 @@
+# Don't forget to check Apache.conf LimitRequestBody directive and set it as high as possible
+
+php_value memory_limit 1536M
+php_value post_max_size 1536M
+php_value upload_max_filesize 1536M
+php_value max_execution_time 0
+php_value max_input_time 0
+
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} !^www\.example\.co.uk$ [NC]
+#RewriteRule ^(.*)$ http://www.example.co.uk/$1 [R=301,L]
+
+RewriteBase /webftp
+RewriteCond $1 !^(index\.php|robots\.txt|favicon\.ico|uploads|assets|phpinfo.php)
+RewriteRule ^(.*)$ index\.php/$1 [L]
+
+# On fasthosts replace the last line above with this:
+# RewriteRule ^(.*)$ index\.php?/$1 [L]
